@@ -1,0 +1,12 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Juergen Ryannel",
+  "license": "MIT",
+  "dependencies": {
+    "@mytool/cli": "^0.1.0",
+    "@mytool/core": "^0.1.0",
+    "@mytool/server": "^0.1.0"
+  }
+}
