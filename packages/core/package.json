@@ -1,12 +1,16 @@
 {
-  "name": "@mytool/cli",
+  "name": "@mytool/core",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "The core api of mytool",
+  "keywords": [
+    "mytool",
+    "core"
+  ],
   "author": "Juergen Ryannel <juergen@ryannel.org>",
   "homepage": "https://github.com/jryannel/mytool#readme",
   "license": "ISC",
-  "main": "lib/cli.js",
-  "typings": "lib/cli.d.ts",
+  "main": "lib/core.js",
+  "typings": "lib/core.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -24,5 +28,8 @@
   "scripts": {
     "tsc": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jryannel/mytool/issues"
   }
 }
