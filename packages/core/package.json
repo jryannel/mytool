@@ -1,6 +1,6 @@
 {
   "name": "@mytool/core",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The core api of mytool",
   "keywords": [
     "mytool",
