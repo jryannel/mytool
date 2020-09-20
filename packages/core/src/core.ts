@@ -5,4 +5,6 @@ export class Core {
     console.log(`core: ${name} visited`);
     return `${name} touched the core`;
   }
+  visit2() {}
+  visit3() {}
 }
