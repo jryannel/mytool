@@ -22,7 +22,11 @@
     "url": "git+https://github.com/jryannel/mytool.git"
   },
   "scripts": {
-    "tsc": "tsc",
+    "build": "run-s clean build:tsc",
+    "build:tsc": "tsc -b",
+    "clean": "rimraf lib",
+    "start": "node lib/index.js",
+    "start:dev": "nodemon",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {

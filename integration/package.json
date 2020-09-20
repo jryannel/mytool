@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Juergen Ryannel",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "tsc": "tsc"
+  },
   "dependencies": {
     "@mytool/cli": "^0.1.0",
     "@mytool/core": "^0.1.0",
