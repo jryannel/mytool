@@ -1,0 +1,19 @@
+{
+  "name": "@mytool/cli",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Juergen Ryannel <juergen@ryannel.org>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
